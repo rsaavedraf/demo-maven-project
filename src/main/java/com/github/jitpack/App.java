@@ -2,6 +2,11 @@ package com.github.jitpack;
 
 /**
  * Hello world!
+ * Changing the description of this class to check updates on the final target 
+ * through our javadoc publishing workflow (through Bamboo) for IDS
+ *
+ * @author Raul Saavedra
+ * @version 1.1
  *
  */
 public class App 
@@ -11,7 +16,19 @@ public class App
         System.out.println(new App().greet("world"));
     }
 
+    /**
+     * This method had no javadoc comment before, but now it has this one.
+     */
     public String greet(String name) {
         return "Hello " + name;
+    }
+
+    /**
+     * This method will do almost nothing
+     * @param  x an integer
+     * @return the exact same integer given to the function
+     */
+    public int doNothing(int x) {
+	return x;
     }
 }
