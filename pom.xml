@@ -56,6 +56,9 @@
                         <goals>
                             <goal>jar</goal>
                         </goals>
+ 			<configuration>
+			   <arguments>-Dmaven.javadoc.skip=false</arguments>
+		    	</configuration>
                     </execution>
                 </executions>
       </plugin>
