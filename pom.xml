@@ -50,15 +50,15 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
 		<version>3.2.0</version>
+		<configuration>
+		   <arguments>-Dmaven.javadoc.skip=false</arguments>
+	    	</configuration>
                 <executions>
                     <execution>
                         <id>attach-javadocs</id>
                         <goals>
                             <goal>jar</goal>
                         </goals>
- 			<configuration>
-			   <arguments>-Dmaven.javadoc.skip=false</arguments>
-		    	</configuration>
                     </execution>
                 </executions>
       </plugin>
