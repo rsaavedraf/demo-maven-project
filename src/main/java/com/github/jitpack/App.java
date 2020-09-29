@@ -18,6 +18,7 @@ public class App
 
     /**
      * This method had no javadoc comment before, but now it has this one.
+     * Now it also has this second line as part of the method comment.
      */
     public String greet(String name) {
         return "Hello " + name;
