@@ -1,7 +1,7 @@
 package com.github.jitpack;
 
 /**
- * Hello world -- first javadoc line! Trailing text, after an admiration sign.
+ * Hello world -- first javadoc line.
  * Changing the description of this class to check updates on the final target
  * through our javadoc publishing workflow (through Bamboo) for IDS
  *
