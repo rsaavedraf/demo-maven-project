@@ -34,7 +34,7 @@ public class App
     }
 
     /**
-     * This method will do almost nothing
+     * This method will also do almost nothing
      * @param  s a String
      * @return the exact same String given to the function
      */
