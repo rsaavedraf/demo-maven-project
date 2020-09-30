@@ -1,15 +1,15 @@
 package com.github.jitpack;
 
 /**
- * Hello world -- first javadoc line! Trailing text after the admiration sign.
- * Changing the description of this class to check updates on the final target 
+ * Hello world -- first javadoc line! Trailing text, after an admiration sign.
+ * Changing the description of this class to check updates on the final target
  * through our javadoc publishing workflow (through Bamboo) for IDS
  *
  * @author Raul Saavedra
  * @version 1.1
  *
  */
-public class App 
+public class App
 {
     public static void main(String[] args)
     {
