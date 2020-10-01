@@ -1,7 +1,7 @@
 package com.github.jitpack;
 
 /**
- * Hello world! This is the first javadoc line.
+ * Hello world -- first javadoc line.
  * Changing the description of this class to check updates on the final target 
  * through our javadoc publishing workflow (through Bamboo) for IDS.
  * This should appear today on the target github account: 2020-10-01
@@ -10,7 +10,7 @@ package com.github.jitpack;
  * @version 1.1
  *
  */
-public class App 
+public class App
 {
     public static void main(String[] args)
     {
@@ -35,7 +35,7 @@ public class App
     }
 
     /**
-     * This method will do almost nothing
+     * This method will also do almost nothing
      * @param  s a String
      * @return the exact same String given to the function
      */
@@ -43,3 +43,4 @@ public class App
 	return s;
     }
 }
+
