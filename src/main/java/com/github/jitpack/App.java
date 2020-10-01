@@ -3,7 +3,8 @@ package com.github.jitpack;
 /**
  * Hello world! This is the first javadoc line.
  * Changing the description of this class to check updates on the final target 
- * through our javadoc publishing workflow (through Bamboo) for IDS
+ * through our javadoc publishing workflow (through Bamboo) for IDS.
+ * This should appear today on the target github account: 2020-10-01
  *
  * @author Raul Saavedra
  * @version 1.1
